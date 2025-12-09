@@ -1,51 +1,38 @@
-# Definiciones de entropia
+# Definiciones de Entropía
+
 ## 1. Entropía en Termodinámica
-La entropía es una magnitud física que mide el grado de desorden o dispersión de energía en un sistema.  
-Se relaciona con el Segundo Principio de la Termodinámica: en un proceso natural, la entropía total del universo tiende a aumentar.
+En 1824, Leonard Sadi Carnot publico los resultados de un estudio sobre la eficiencia de las maquinas de vapor, para que posteriormente en una reseña de su articulo, Rudolf Clausius introdujiera una nueva propiedad termodinamica que relacionara el flujo de calor espontáneo que ocurre durante un proceso, a la temperatura en la que se desarrolla dicho proceso. Esta propiedad se definió como la relación entre el calor reversible (qrev) y la temperatura absoluta (T) medida en kelvin. Notese que la idea de un proceso reversible es un formalismo requerido para sostener varios conceptos termodinamicos, puesto que no hay un proceso realmente reversible, sino que se clasifican como irreversibles.
+
 
 **Fórmula básica:**
 dS = dQ_rev / T
 
----
+**Ejercisios:**
+Si se añaden 30,0 J de calor al agua que está a 12 °C, ¿cuál es el cambio de entropía?
 
-## 2. Entropía Estadística (Boltzmann)
-La entropía representa el número de microestados posibles de un sistema.  
-Mientras más microestados posibles existan, mayor será la entropía.
+Datos
+*Calor añadido: Q=30,0J
+*Temperatura: T= 12ºC
 
-**Fórmula de Boltzmann:**
-S = k · ln(Ω)
+Ds=30,0J/(12+273,15)=0,105J/K
 
----
 
-## 3. Entropía de Shannon (Teoría de la Información)
-En la teoría de la información, la entropía mide la incertidumbre en un conjunto de mensajes o datos.  
-Más incertidumbre = mayor entropía.
+¿Cuál es el aumento de entropía cuando 3,00 kg de hielo a 0 °C se funden para formar agua a 0 °C?
 
-**Fórmula:**
-H(X) = – Σ p(xi) · log₂ p(xi)
+Datos
+*Masa del hielo : 3,00Kg
+*Temperatura:0ºC
+*Calor latente de fusion del hielo: Lf=333x10^3 J/kg
 
----
+qrev=mxLf
 
-## 4. Entropía Cuántica (von Neumann)
-Es una medida del desorden o la falta de información en un sistema cuántico.  
-Se usa para analizar el entrelazamiento cuántico.
+qrev= 3,00Kg x 333000 J/Kg
 
-**Fórmula:**
-S = – Tr(ρ log ρ)
+Ds= 999000J/(0+273,15)
+Ds= 3,66x10^3 J/K
 
----
-
-## 5. Entropía en Ecología
-Mide la diversidad de especies en un ecosistema.  
-Se suele usar la entropía de Shannon para medir cuán distribuida está la abundancia entre las especies.
-
----
-
-## 6. Idea General
-Aunque aparece en muchos campos, la entropía siempre tiene que ver con:
-- Desorden  
-- Incertidumbre  
-- Información  
-- Número de configuraciones posibles
-
-Es una medida del “caos” o la impredecibilidad de un sistema.
+**Referencias**
+https://openstax.org/books/chemistry-2e/pages/16-2-entropy
+https://www.tec-science.com/thermodynamics/heat/specific-heat-of-fusion-and-heat-of-solidification-latent-heat
+https://openstax.org/books/physics/pages/12-3-second-law-of-thermodynamics-entropy
+https://satheejee.iitk.ac.in/article/chemistry/chemistry-latent-heat-of-fusion
