@@ -1,1 +1,1 @@
-# Definiciones-de-entropia
+# Definiciones de entropia
