@@ -65,17 +65,62 @@ https://es.paperblog.com/microestados-y-entropia-quimica-1780318/
 
 ---
 ## 3.Entropia como calidad de la informacion.
-La transmisión de la información se basa en la teoría de la comunicación, la cual se relaciona directamente con el concepto de entropía. La entropía es una medida de la calidad de la información, ya que indica el grado de incertidumbre, complejidad o novedad que contiene un mensaje. A mayor entropía, mayor es el desorden y, por lo tanto, mayor es el valor informativo; a menor entropía, mayor es el orden y menor la información. Esto resulta clave para determinar la calidad informativa del mensaje. Por ejemplo, la secuencia “BBBBBB” es predecible y estructurada, lo que genera una baja entropía; en cambio, la cadena “8N3P9X” es no secuencial y compleja, lo que produce una alta entropía.
+La transmisión de la información se basa en la teoría de la comunicación, la cual se relaciona directamente con el concepto de entropía. La entropía es una medida de la calidad de la información, ya que indica el grado de incertidumbre, complejidad o novedad que contiene un mensaje. A mayor entropía, mayor es el desorden y, por lo tanto, mayor es el valor informativo; a menor entropía, mayor es el orden y menor la información. Esto resulta clave para determinar la calidad informativa del mensaje. 
 
 **Fórmula básica:**
 H=−∑Pi​*log2​(pi​)
 
 donde H representa la entropía del sistema, (Pi) es la probabilidad de que ocurra cada símbolo o mensaje, y el logaritmo en base 2 se emplea porque la entropía se mide en bits. El signo negativo asegura que el valor de la entropía sea positivo. Shannon definió esta ecuación considerando un sistema binario —es decir, con dos opciones posibles—, de ahí el uso del logaritmo base 2. El resultado de H indica cuántos bits se necesitan, en promedio, para describir o transmitir un mensaje.
 **Ejemplos:**
-...
+Por ejemplo, la secuencia “BBBBBB” es predecible y estructurada, lo que genera una baja entropía; en cambio, la cadena “8N3P9X” es no secuencial y compleja, lo que produce una alta entropía.
 **Referencias**
 http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0124-59962011000200009
 
+---
+## 4.Entropia como entrelazamiento de la informacion.
+La entropía de entrelazamiento es una medida cuantitativa (un número) que cuantifica la incertidumbre o la falta de información sobre el estado cuántico definido de un subsistema, debido exclusivamente a que está entrelazado con otro subsistema. Se denota comúnmente como S sub a.
+En términos más sencillos: cuando dos partículas (o sistemas) están entrelazadas, no puedes describir el estado de una de ellas por separado con certeza. La entropía de entrelazamiento mide precisamente "cuánta" de esa incertidumbre existe. A mayor entropía de entrelazamiento, mayor es el grado de conexión cuántica y la información compartida entre los subsistemas.
+Si un subsistema A está (posiblemente) enredado con algún otro subsistema B, la información necesaria para calcular todos los resultados de las mediciones parciales en A se almacena dentro de un operador de densidad reducida 
+**formula**
+SA​=−kb​TrA​{ρ^​A​ln[ρ^​A​]}
+---
+donde: Sa es la cantidad de incertidumbre sobre el estado de A debido a su entrelazamiento con el sistema, Kb es la constante de Boltzmann, la traza TrA suma los elementos diagonales para obtener un número escalar, y el operador ρA es la matriz de densidad reducida que describe el estado cuántico "promediado" de A, obtenido al ignorar 
+el sistema con el que está entrelazado.
+**ejemplos**
+1. Cajas de Calcetines (Sin Entrelazamiento)
+Abres tu caja y ves un calcetín rojo. Como sabías desde el principio que la otra caja tenía uno azul y no había conexión entre ellas, no te llevas ninguna sorpresa. La entropía es cero, igual que cuando escuchas una canción que ya te sabes de memoria palabra por palabra.
 
+2. Guantes Gemelos (Entrelazamiento Máximo)
+Tienes un par de guantes (izquierdo y derecho) repartidos en dos cajas. Al abrir la tuya, hay un 50% de ver cualquiera de los dos: es la máxima sorpresa posible. Pero en el instante en que ves, por ejemplo, el izquierdo, sabes con certeza absoluta que en la otra caja está el derecho. La entropía es máxima, como el momento de incertidumbre justo antes de que caiga una moneda lanzada al aire.
+**Referencias**
+https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_III_(Chong)/03%3A_Quantum_Entanglement/3.07%3A_Entanglement_Entropy#:~:text=El%20concepto%20de%20entrop%C3%ADa%20de%20entrelazamiento%20busca%20cuantificar%20la%20incertidumbre,la%20elecci%C3%B3n%20de%20la%20medici%C3%B3n
+---
+
+
+## 6. Segunda ley de la termodinamica.
+En la búsqueda de una propiedad que pueda predecir de forma confiable si un proceso será espontáneo, la entropía parece ser una buena candidata. Muchos procesos en los que la entropía del sistema aumenta (ΔS > 0) suelen ser espontáneos; sin embargo, también hay muchos casos donde esto no ocurre. Para tener una idea más completa, es necesario considerar no solo los cambios de entropía del sistema, sino también los de los alrededores. Si juntamos ambos, estamos considerando todo el universo, por lo que se cumple lo siguiente.
+**Fórmula básica:**
+ΔSuniv=ΔSsys+ΔSsur
+
+**donde**
+___
+**ΔS_univ**
+
+Es el cambio de entropía del universo.
+El “universo” en termodinámica se define como:
+universo = sistema + alrededores.
+Indica si un proceso es espontáneo, no espontáneo o está en equilibrio.
+
+**ΔS_sys**
+Es el cambio de entropía del sistema, o sea, del objeto o proceso que estamos estudiando.
+Puede aumentar o disminuir dependiendo de si el sistema absorbe o libera energía en forma de calor.
+
+**ΔS_surr**
+Es el cambio de entropía de los alrededores, es decir, todo lo que rodea al sistema.
+También cambia cuando hay flujo de calor hacia o desde el sistema.
+**Ejemplos:**
+Un buen caso son las estrellas las cuales son cumulos de masa y energia, su entorno alrededor es frio y vacio por lo que la tendencia de las estrellas es liberar esta energia en forma de ondas y calor, esta energia se libera y se expande a través del cosmos hasta que se vuelve difusa y pierde su utilidad, esto hace que incremente la entropia.
+**Referencias**
+https://openstax.org/books/chemistry-atoms-first-2e/pages/12-3-the-second-and-third-laws-of-thermodynamics
 
 
