@@ -77,3 +77,5 @@ donde H representa la entropía del sistema, (Pi) es la probabilidad de que ocur
 http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0124-59962011000200009
 
 
+
+
