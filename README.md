@@ -80,10 +80,11 @@ http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0124-599620110002000
 ## 4.Entropia como entrelazamiento de la informacion.
 La entropía de entrelazamiento es una medida cuantitativa (un número) que cuantifica la incertidumbre o la falta de información sobre el estado cuántico definido de un subsistema, debido exclusivamente a que está entrelazado con otro subsistema. Se denota comúnmente como S sub a.
 En términos más sencillos: cuando dos partículas (o sistemas) están entrelazadas, no puedes describir el estado de una de ellas por separado con certeza. La entropía de entrelazamiento mide precisamente "cuánta" de esa incertidumbre existe. A mayor entropía de entrelazamiento, mayor es el grado de conexión cuántica y la información compartida entre los subsistemas.
-Si un subsistema A está (posiblemente) enredado con algún otro subsistema B, la información necesaria para calcular todos los resultados de las mediciones parciales en A se almacena dentro de un operador de densidad reducida 
+Si un subsistema A está (posiblemente) enredado con algún otro subsistema B, la información necesaria para calcular todos los resultados de las mediciones parciales en A se almacena dentro de un operador de densidad reducida
+
 **formula**
-SA​=−kb​TrA​{ρ^​A​ln[ρ^​A​]}
----
+SA=−kbTrA{ρ^Aln[ρ^A]}
+
 donde: Sa es la cantidad de incertidumbre sobre el estado de A debido a su entrelazamiento con el sistema, Kb es la constante de Boltzmann, la traza TrA suma los elementos diagonales para obtener un número escalar, y el operador ρA es la matriz de densidad reducida que describe el estado cuántico "promediado" de A, obtenido al ignorar 
 el sistema con el que está entrelazado.
 **ejemplos**
