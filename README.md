@@ -50,7 +50,8 @@ W=e^S/Kb
 
  Donde: S es la entropía del sistema, Kb es la constante de Boltzmann, W es el número de microestados posibles del sistema
 
- **Ejemplos:**
+ **Ejemplos:** 
+ 
  1. Imagina una configuracion de un tablero de ajedrez: 
 Macroestado: "Tablero con 2 torres negras y 1 rey blanco".
 Microestados: Cada colocación específica de esas 3 piezas en casillas distintas es un microestado diferente.
@@ -76,6 +77,7 @@ H=−∑Pi​*log2​(pi​)
 donde H representa la entropía del sistema, (Pi) es la probabilidad de que ocurra cada símbolo o mensaje, y el logaritmo en base 2 se emplea porque la entropía se mide en bits. El signo negativo asegura que el valor de la entropía sea positivo. Shannon definió esta ecuación considerando un sistema binario —es decir, con dos opciones posibles—, de ahí el uso del logaritmo base 2. El resultado de H indica cuántos bits se necesitan, en promedio, para describir o transmitir un mensaje.
 
 **Ejemplos:**
+
 Por ejemplo, la secuencia “BBBBBB” es predecible y estructurada, lo que genera una baja entropía; en cambio, la cadena “8N3P9X” es no secuencial y compleja, lo que produce una alta entropía.
 
 **Referencias**
@@ -94,6 +96,7 @@ donde: Sa es la cantidad de incertidumbre sobre el estado de A debido a su entre
 el sistema con el que está entrelazado.
 
 **ejemplos**
+
 1. Cajas de Calcetines (Sin Entrelazamiento)
 Abres tu caja y ves un calcetín rojo. Como sabías desde el principio que la otra caja tenía uno azul y no había conexión entre ellas, no te llevas ninguna sorpresa. La entropía es cero, igual que cuando escuchas una canción que ya te sabes de memoria palabra por palabra.
 
@@ -112,6 +115,7 @@ Smax=  A/4*lp^2
 donde: Smax se refiere a la entropía máxima del sistema; A es el área de frontera; la D es la dimensión espacial del volumen; lp  es la longitud de Planck  y está elevado a la 2 porque depende solo de la frontera de dimensión  D-1, es decir, 2.
 
 **ejemplos**
+
 Un patrón notable es el de los agujeros negros; la entropía de estos es proporcional al área del horizonte de eventos y no al volumen interno de estos. Esto concuerda con el principio holográfico, con la información requerida para determinar la organización del  universo.
 Otro ejemplo es las simulaciones cuanticas de gases ultraenfriados en laboratorio, donde las mediciones entropía de entrelazamiento determinan escalamiento de area.
 
@@ -142,6 +146,7 @@ Es el cambio de entropía de los alrededores, es decir, todo lo que rodea al sis
 También cambia cuando hay flujo de calor hacia o desde el sistema.
 
 **Ejemplos:**
+
 Un buen caso son las estrellas las cuales son cumulos de masa y energia, su entorno alrededor es frio y vacio por lo que la tendencia de las estrellas es liberar esta energia en forma de ondas y calor, esta energia se libera y se expande a través del cosmos hasta que se vuelve difusa y pierde su utilidad, esto hace que incremente la entropia.
 
 **Referencias**
