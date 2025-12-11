@@ -96,7 +96,18 @@ Tienes un par de guantes (izquierdo y derecho) repartidos en dos cajas. Al abrir
 **Referencias**
 https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_III_(Chong)/03%3A_Quantum_Entanglement/3.07%3A_Entanglement_Entropy#:~:text=El%20concepto%20de%20entrop%C3%ADa%20de%20entrelazamiento%20busca%20cuantificar%20la%20incertidumbre,la%20elecci%C3%B3n%20de%20la%20medici%C3%B3n
 ---
+## 5.Entropía como Función Termodinámica dependiente de la Dimensionalidad.
+La entropía puede analizarse como una medida para describir un sistema; esta medida depende de la dimensionalidad de dicho sistema. Este enfoque se relaciona con el principio holográfico, que expresa que toda la información dentro de un volumen puede representarse en la superficie que lo delimita. Por lo tanto, la entropía de un sistema aumenta con el área de la frontera del sistema, mas no con el volumen. 
+**formula**
+Smax=  A/4*lp^2   
 
+donde: Smax se refiere a la entropía máxima del sistema; A es el área de frontera; la D es la dimensión espacial del volumen; lp  es la longitud de Planck  y está elevado a la 2 porque depende solo de la frontera de dimensión  D-1, es decir, 2.
+
+**ejemplos**
+Un patrón notable es el de los agujeros negros; la entropía de estos es proporcional al área del horizonte de eventos y no al volumen interno de estos. Esto concuerda con el principio holográfico, con la información requerida para determinar la organización del  universo.
+
+**Referencias**
+[https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_III_(Chong)/03%3A_Quantum_Entanglement/3.07%3A_Entanglement_Entropy#:~:text=El%20concepto%20de%20entrop%C3%ADa%20de%20entrelazamiento%20busca%20cuantificar%20la%20incertidumbre,la%20elecci%C3%B3n%20de%20la%20medici%C3%B3n](https://iniat.ibero.mx/blog/la-entropia-los-hoyos-negros-y-la-teoria-de-la-informacion/) 
 
 ## 6. Segunda ley de la termodinamica.
 En la búsqueda de una propiedad que pueda predecir de forma confiable si un proceso será espontáneo, la entropía parece ser una buena candidata. Muchos procesos en los que la entropía del sistema aumenta (ΔS > 0) suelen ser espontáneos; sin embargo, también hay muchos casos donde esto no ocurre. Para tener una idea más completa, es necesario considerar no solo los cambios de entropía del sistema, sino también los de los alrededores. Si juntamos ambos, estamos considerando todo el universo, por lo que se cumple lo siguiente.
