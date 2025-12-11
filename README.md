@@ -71,6 +71,7 @@ La transmisión de la información se basa en la teoría de la comunicación, la
 H=−∑Pi​*log2​(pi​)
 
 donde H representa la entropía del sistema, (Pi) es la probabilidad de que ocurra cada símbolo o mensaje, y el logaritmo en base 2 se emplea porque la entropía se mide en bits. El signo negativo asegura que el valor de la entropía sea positivo. Shannon definió esta ecuación considerando un sistema binario —es decir, con dos opciones posibles—, de ahí el uso del logaritmo base 2. El resultado de H indica cuántos bits se necesitan, en promedio, para describir o transmitir un mensaje.
+
 **Ejemplos:**
 Por ejemplo, la secuencia “BBBBBB” es predecible y estructurada, lo que genera una baja entropía; en cambio, la cadena “8N3P9X” es no secuencial y compleja, lo que produce una alta entropía.
 **Referencias**
@@ -87,6 +88,7 @@ SA=−kbTrA{ρ^Aln[ρ^A]}
 
 donde: Sa es la cantidad de incertidumbre sobre el estado de A debido a su entrelazamiento con el sistema, Kb es la constante de Boltzmann, la traza TrA suma los elementos diagonales para obtener un número escalar, y el operador ρA es la matriz de densidad reducida que describe el estado cuántico "promediado" de A, obtenido al ignorar 
 el sistema con el que está entrelazado.
+
 **ejemplos**
 1. Cajas de Calcetines (Sin Entrelazamiento)
 Abres tu caja y ves un calcetín rojo. Como sabías desde el principio que la otra caja tenía uno azul y no había conexión entre ellas, no te llevas ninguna sorpresa. La entropía es cero, igual que cuando escuchas una canción que ya te sabes de memoria palabra por palabra.
@@ -105,6 +107,7 @@ donde: Smax se refiere a la entropía máxima del sistema; A es el área de fron
 
 **ejemplos**
 Un patrón notable es el de los agujeros negros; la entropía de estos es proporcional al área del horizonte de eventos y no al volumen interno de estos. Esto concuerda con el principio holográfico, con la información requerida para determinar la organización del  universo.
+Otro ejemplo es las simulaciones cuanticas de gases ultraenfriados en laboratorio, donde las mediciones entropía de entrelazamiento determinan escalamiento de area.
 
 **Referencias**
 [https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_III_(Chong)/03%3A_Quantum_Entanglement/3.07%3A_Entanglement_Entropy#:~:text=El%20concepto%20de%20entrop%C3%ADa%20de%20entrelazamiento%20busca%20cuantificar%20la%20incertidumbre,la%20elecci%C3%B3n%20de%20la%20medici%C3%B3n](https://iniat.ibero.mx/blog/la-entropia-los-hoyos-negros-y-la-teoria-de-la-informacion/) 
@@ -130,8 +133,10 @@ Puede aumentar o disminuir dependiendo de si el sistema absorbe o libera energí
 **ΔS_surr**
 Es el cambio de entropía de los alrededores, es decir, todo lo que rodea al sistema.
 También cambia cuando hay flujo de calor hacia o desde el sistema.
+
 **Ejemplos:**
 Un buen caso son las estrellas las cuales son cumulos de masa y energia, su entorno alrededor es frio y vacio por lo que la tendencia de las estrellas es liberar esta energia en forma de ondas y calor, esta energia se libera y se expande a través del cosmos hasta que se vuelve difusa y pierde su utilidad, esto hace que incremente la entropia.
+
 **Referencias**
 https://openstax.org/books/chemistry-atoms-first-2e/pages/12-3-the-second-and-third-laws-of-thermodynamics
 
