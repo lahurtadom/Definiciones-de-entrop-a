@@ -4,7 +4,7 @@
 En 1824, Leonard Sadi Carnot publico los resultados de un estudio sobre la eficiencia de las maquinas de vapor, para que posteriormente en una reseña de su articulo, Rudolf Clausius introdujiera una nueva propiedad termodinamica que relacionara el flujo de calor espontáneo que ocurre durante un proceso, a la temperatura en la que se desarrolla dicho proceso. Esta propiedad se definió como la relación entre el calor reversible (qrev) y la temperatura absoluta (T) medida en kelvin. Notese que la idea de un proceso reversible es un formalismo requerido para sostener varios conceptos termodinamicos, puesto que no hay un proceso realmente reversible, sino que se clasifican como irreversibles.
 
 
-**Fórmula básica:**
+**Fórmula:**
 
 dS = dQ_rev / T
 
@@ -44,9 +44,10 @@ https://satheejee.iitk.ac.in/article/chemistry/chemistry-latent-heat-of-fusion
 
 para poder dar una definicion de microestado, partamos de qué es un macroestado. El macroestado de un sistema químico es aquel que contiene la cantidad de materia suficiente como para poder medir su volumen, presión o temperatura. Por el contrario, podemos definir un microestado como aquel que no solo cuenta con menor materia, sino que además se trata de una visión detallada de la energía y tiempo que poseen las moléculas u otras partículas. Tomemos en consideración un sistema cualquiera. En este hay una redistribución constante de energía entre las partículas que lo componen. Para sistemas compuestos por líquidos o gases las partículas no solo se redistribuyen constantemente en su ubicación, sino que también cambian su energía de forma discreta, en múltiplos de una unidad mínima fundamental (cuantos) debido a sus frecuentes colisiones, haciendo que estas reboten unas con otras, generalmente con una cantidad de energía diferente cada molecula tras lal colisión. Cada forma específica, cada disposición de la energía de cada molécula en todo el sistema en un instante se llama microestado. Un microestado es, entonces, algo así como una "foto absolutamente instantánea" teórica de la ubicación y el momento de cada molécula y átomo en todo el macroestado. En el siguiente instante, el sistema cambia inmediatamente a otro microestado. (Una molécula que se mueve a una velocidad media de alrededor de mil millas por hora choca con otras unas siete veces en una milmillonésima de segundo. Considerando un mol de moléculas (6,022x10^23) viajando a un número muy grande de velocidades diferentes, las colisiones ocurren — y por tanto los cambios de energía de billones de moléculas — en mucho menos de una billonésima de segundo. Por eso es sensato hablar en términos de "un instante". Lo anterior de puede calcular con la siguiente formula:
 
-**Fórmula básica:**
+**Fórmula:**
 
 W=e^S/Kb
+
  Donde: S es la entropía del sistema, Kb es la constante de Boltzmann, W es el número de microestados posibles del sistema
 
  **Ejemplos:**
@@ -68,7 +69,8 @@ https://es.paperblog.com/microestados-y-entropia-quimica-1780318/
 ## 3.Entropia como calidad de la informacion.
 La transmisión de la información se basa en la teoría de la comunicación, la cual se relaciona directamente con el concepto de entropía. La entropía es una medida de la calidad de la información, ya que indica el grado de incertidumbre, complejidad o novedad que contiene un mensaje. A mayor entropía, mayor es el desorden y, por lo tanto, mayor es el valor informativo; a menor entropía, mayor es el orden y menor la información. Esto resulta clave para determinar la calidad informativa del mensaje. 
 
-**Fórmula básica:**
+**Fórmula:**
+
 H=−∑Pi​*log2​(pi​)
 
 donde H representa la entropía del sistema, (Pi) es la probabilidad de que ocurra cada símbolo o mensaje, y el logaritmo en base 2 se emplea porque la entropía se mide en bits. El signo negativo asegura que el valor de la entropía sea positivo. Shannon definió esta ecuación considerando un sistema binario —es decir, con dos opciones posibles—, de ahí el uso del logaritmo base 2. El resultado de H indica cuántos bits se necesitan, en promedio, para describir o transmitir un mensaje.
@@ -85,7 +87,7 @@ La entropía de entrelazamiento es una medida cuantitativa (un número) que cuan
 En términos más sencillos: cuando dos partículas (o sistemas) están entrelazadas, no puedes describir el estado de una de ellas por separado con certeza. La entropía de entrelazamiento mide precisamente "cuánta" de esa incertidumbre existe. A mayor entropía de entrelazamiento, mayor es el grado de conexión cuántica y la información compartida entre los subsistemas.
 Si un subsistema A está (posiblemente) enredado con algún otro subsistema B, la información necesaria para calcular todos los resultados de las mediciones parciales en A se almacena dentro de un operador de densidad reducida
 
-**formula**
+**formula:**
 SA=−kbTrA{ρ^Aln[ρ^A]}
 
 donde: Sa es la cantidad de incertidumbre sobre el estado de A debido a su entrelazamiento con el sistema, Kb es la constante de Boltzmann, la traza TrA suma los elementos diagonales para obtener un número escalar, y el operador ρA es la matriz de densidad reducida que describe el estado cuántico "promediado" de A, obtenido al ignorar 
@@ -103,7 +105,8 @@ https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_III_
 ---
 ## 5.Entropía como Función Termodinámica dependiente de la Dimensionalidad.
 La entropía puede analizarse como una medida para describir un sistema; esta medida depende de la dimensionalidad de dicho sistema. Este enfoque se relaciona con el principio holográfico, que expresa que toda la información dentro de un volumen puede representarse en la superficie que lo delimita. Por lo tanto, la entropía de un sistema aumenta con el área de la frontera del sistema, mas no con el volumen. 
-**formula**
+
+**formula:**
 Smax=  A/4*lp^2   
 
 donde: Smax se refiere a la entropía máxima del sistema; A es el área de frontera; la D es la dimensión espacial del volumen; lp  es la longitud de Planck  y está elevado a la 2 porque depende solo de la frontera de dimensión  D-1, es decir, 2.
@@ -117,7 +120,8 @@ Otro ejemplo es las simulaciones cuanticas de gases ultraenfriados en laboratori
 
 ## 6. Segunda ley de la termodinamica.
 En la búsqueda de una propiedad que pueda predecir de forma confiable si un proceso será espontáneo, la entropía parece ser una buena candidata. Muchos procesos en los que la entropía del sistema aumenta (ΔS > 0) suelen ser espontáneos; sin embargo, también hay muchos casos donde esto no ocurre. Para tener una idea más completa, es necesario considerar no solo los cambios de entropía del sistema, sino también los de los alrededores. Si juntamos ambos, estamos considerando todo el universo, por lo que se cumple lo siguiente.
-**Fórmula básica:**
+
+**Fórmula:**
 ΔSuniv=ΔSsys+ΔSsur
 
 **donde**
