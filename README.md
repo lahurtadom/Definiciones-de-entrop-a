@@ -5,6 +5,7 @@ En 1824, Leonard Sadi Carnot publico los resultados de un estudio sobre la efici
 
 
 **Fórmula básica:**
+
 dS = dQ_rev / T
 
 **Ejemplos:**
@@ -74,6 +75,7 @@ donde H representa la entropía del sistema, (Pi) es la probabilidad de que ocur
 
 **Ejemplos:**
 Por ejemplo, la secuencia “BBBBBB” es predecible y estructurada, lo que genera una baja entropía; en cambio, la cadena “8N3P9X” es no secuencial y compleja, lo que produce una alta entropía.
+
 **Referencias**
 http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0124-59962011000200009
 
@@ -95,6 +97,7 @@ Abres tu caja y ves un calcetín rojo. Como sabías desde el principio que la ot
 
 2. Guantes Gemelos (Entrelazamiento Máximo)
 Tienes un par de guantes (izquierdo y derecho) repartidos en dos cajas. Al abrir la tuya, hay un 50% de ver cualquiera de los dos: es la máxima sorpresa posible. Pero en el instante en que ves, por ejemplo, el izquierdo, sabes con certeza absoluta que en la otra caja está el derecho. La entropía es máxima, como el momento de incertidumbre justo antes de que caiga una moneda lanzada al aire.
+
 **Referencias**
 https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_III_(Chong)/03%3A_Quantum_Entanglement/3.07%3A_Entanglement_Entropy#:~:text=El%20concepto%20de%20entrop%C3%ADa%20de%20entrelazamiento%20busca%20cuantificar%20la%20incertidumbre,la%20elecci%C3%B3n%20de%20la%20medici%C3%B3n
 ---
@@ -118,7 +121,7 @@ En la búsqueda de una propiedad que pueda predecir de forma confiable si un pro
 ΔSuniv=ΔSsys+ΔSsur
 
 **donde**
-___
+
 **ΔS_univ**
 
 Es el cambio de entropía del universo.
