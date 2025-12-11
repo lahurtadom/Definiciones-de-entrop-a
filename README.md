@@ -9,6 +9,7 @@ En 1824, Leonard Sadi Carnot publico los resultados de un estudio sobre la efici
 dS = dQ_rev / T
 
 **Ejemplos:**
+
 Si se añaden 30,0 J de calor al agua que está a 12 °C, ¿cuál es el cambio de entropía?
 
 Datos
@@ -104,7 +105,8 @@ Abres tu caja y ves un calcetín rojo. Como sabías desde el principio que la ot
 Tienes un par de guantes (izquierdo y derecho) repartidos en dos cajas. Al abrir la tuya, hay un 50% de ver cualquiera de los dos: es la máxima sorpresa posible. Pero en el instante en que ves, por ejemplo, el izquierdo, sabes con certeza absoluta que en la otra caja está el derecho. La entropía es máxima, como el momento de incertidumbre justo antes de que caiga una moneda lanzada al aire.
 
 **Referencias**
-https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_III_(Chong)/03%3A_Quantum_Entanglement/3.07%3A_Entanglement_Entropy#:~:text=El%20concepto%20de%20entrop%C3%ADa%20de%20entrelazamiento%20busca%20cuantificar%20la%20incertidumbre,la%20elecci%C3%B3n%20de%20la%20medici%C3%B3n
+https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_III_(Chong)/03%3A_Quantum_Entanglement/3.07%3A_Entanglement_Entropy#:~:text=El%20concepto%20de%20entrop%C3%ADa%20de%20entrelazamiento%20busca%20cuantificar%20la%20incertidumbre,la%20elecci%C3%B3n%20de%20la%20medici%C3%B3n 
+
 ---
 ## 5.Entropía como Función Termodinámica dependiente de la Dimensionalidad.
 La entropía puede analizarse como una medida para describir un sistema; esta medida depende de la dimensionalidad de dicho sistema. Este enfoque se relaciona con el principio holográfico, que expresa que toda la información dentro de un volumen puede representarse en la superficie que lo delimita. Por lo tanto, la entropía de un sistema aumenta con el área de la frontera del sistema, mas no con el volumen. 
@@ -122,6 +124,7 @@ Otro ejemplo es las simulaciones cuanticas de gases ultraenfriados en laboratori
 **Referencias**
 [https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_III_(Chong)/03%3A_Quantum_Entanglement/3.07%3A_Entanglement_Entropy#:~:text=El%20concepto%20de%20entrop%C3%ADa%20de%20entrelazamiento%20busca%20cuantificar%20la%20incertidumbre,la%20elecci%C3%B3n%20de%20la%20medici%C3%B3n](https://iniat.ibero.mx/blog/la-entropia-los-hoyos-negros-y-la-teoria-de-la-informacion/) 
 
+---
 ## 6. Segunda ley de la termodinamica.
 En la búsqueda de una propiedad que pueda predecir de forma confiable si un proceso será espontáneo, la entropía parece ser una buena candidata. Muchos procesos en los que la entropía del sistema aumenta (ΔS > 0) suelen ser espontáneos; sin embargo, también hay muchos casos donde esto no ocurre. Para tener una idea más completa, es necesario considerar no solo los cambios de entropía del sistema, sino también los de los alrededores. Si juntamos ambos, estamos considerando todo el universo, por lo que se cumple lo siguiente.
 
