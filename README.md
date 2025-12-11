@@ -91,6 +91,7 @@ En términos más sencillos: cuando dos partículas (o sistemas) están entrelaz
 Si un subsistema A está (posiblemente) enredado con algún otro subsistema B, la información necesaria para calcular todos los resultados de las mediciones parciales en A se almacena dentro de un operador de densidad reducida
 
 **formula:**
+
 SA=−kbTrA{ρ^Aln[ρ^A]}
 
 donde: Sa es la cantidad de incertidumbre sobre el estado de A debido a su entrelazamiento con el sistema, Kb es la constante de Boltzmann, la traza TrA suma los elementos diagonales para obtener un número escalar, y el operador ρA es la matriz de densidad reducida que describe el estado cuántico "promediado" de A, obtenido al ignorar 
