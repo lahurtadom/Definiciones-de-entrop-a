@@ -1,4 +1,5 @@
 # Definiciones de Entropía
+Por: Laura Melissa Hurtado Mayusa; Juan Sebastian Morales Bolivar; Alejandro Petrelly Bonilla
 
 ## 1. Entropía en Termodinámica
 En 1824, Leonard Sadi Carnot publico los resultados de un estudio sobre la eficiencia de las maquinas de vapor, para que posteriormente en una reseña de su articulo, Rudolf Clausius introdujiera una nueva propiedad termodinamica que relacionara el flujo de calor espontáneo que ocurre durante un proceso, a la temperatura en la que se desarrolla dicho proceso. Esta propiedad se definió como la relación entre el calor reversible (qrev) y la temperatura absoluta (T) medida en kelvin. Notese que la idea de un proceso reversible es un formalismo requerido para sostener varios conceptos termodinamicos, puesto que no hay un proceso realmente reversible, sino que se clasifican como irreversibles.
